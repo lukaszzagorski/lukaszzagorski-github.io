@@ -50,7 +50,7 @@ p
 }
 li
 {
-list-style-image: <img src="flaga.jpg">;
+list-style-image: src="flaga.jpg";
 list-style-position: inside;
 font-size:x-large;
 }
