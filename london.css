@@ -51,7 +51,7 @@ font-size: x-large;
 }
 li
 {
-list-style-image: url("flaga.png");
+list-style-image:
 list-style-position: inside;
 font-size:x-large;
 } 
