@@ -5,12 +5,12 @@ width:80%;
 height:90%;
 border:4px double red;
 border-radius:5px;
-background-image: linear-gradient(#FFFF99, white);
+background-image: linear-gradient(#8C1717, white);
 }
 #baner
 {
 font-family: Tahoma;
-color:#003333;
+color:#BC8F8F;
 padding-top: 2%;
 height:10%;
 font-weight: 900;
