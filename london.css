@@ -1,0 +1,49 @@
+#main
+{
+margin: 5% auto 0 auto;
+width:80%;
+height:90%;
+border:4px double red;
+border-radius:5px;
+background-image: linear-gradient(#FFFF99, white);
+}
+#baner
+{
+font-family: Tahoma;
+color:#003333;
+padding-top: 2$;
+height:10%;
+font=weight: 900;
+background-color: white;
+text-align: center;
+font-size: 30px;
+}
+#lewy
+{
+height:87%;
+width:30%;
+float:left;
+border-left:1px #99cccc solid;
+{
+img
+{
+width:80%;
+height:80%;
+border-radius:5px;
+}
+table
+{
+border-spacing:15px 20px;
+margin:auto;
+text-align: center;
+}
+
+padding-top{
+font-size: x-large;
+}
+li
+{
+list-style-image: url("flaga1.png")";
+list-style-position:inside;
+font-size:x-large;
+}
