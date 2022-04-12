@@ -1,49 +1,48 @@
 <html>
 <head>
-<title>London i jego zabytki</title>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="london.css">
+<style>
+body {background-color: #6699CC;}
+h1 {
+color:#0066CC;
+border-style: 2px 2px #0066CC;
+text-align: center;
+}
+#glowny { background-color: #abdbe3;
+width: 400px;
+height:200px; 
+font-size:20px;}
+
+}
+input[type=submit], input[type=reset] {
+background-color: #6699FF;
+border: 4px solid #ccc;
+color: white;
+padding: 16px 32px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 8px;
+}
+</style>
 </head>
 <body>
-<div id="main">
-<div id="baner">
- London i jego zabytki
-  </div>
-<div id="lewy">
-<p>Najciekawsze miejsca w Londynie:</p>
-  <ul>
-<li>London Eye</li>
-<li>Tower Bridge</li>
-<li>Tower of London</li>
-<li>Big Ben</li>
-<li>The British Museum</li>
-<li> Tate Modern </li>
-<li>Trafalgar Square</li>
-<li>The Globe
-    </li>
- <li><a href="index1.html">Wirtualna wycieczka po Londynie</a></li>
-   <li><a href="index2.html">Historia Londynu</a></li>
-</ul>
+<center>
+<h1>Ankieta dotycząca oceny danego filmu</h1>
+<form action="mailto:wsip@wsip.pl?subject=Temat ankiety" method="post">
+<div id="glowny">
+<p><strong>Imię</strong>: <input type="text" name="Imie" size="10" maxlenght="40" style="position: absolute; background-color:#99CCFF; font-style: italic; color: gray" required></p>
+<p><strong>Nazwisko</strong>: <input type="text" name="Nazwisko" size="10" maxlenght="40" style="position: absolute; background-color:#99CCFF; font-style: italic; color: gray" required></p>
+<p><strong>Wybierz film</strong>: <select style="position: absolute; background-color:#99CCFF; font-style: italic; color: gray">
+<option value ="a">Harry Potter</option>
+<option value ="b">Piraci z Karaibów</option>
+<option value ="c">Kraina Lodu</option>
+<option value ="d">Cruella</option>
+<option value ="e">Enola Holms</option>
+</select></p>
+<p><strong>Ocena słowna</strong>: <input type="text" name="Nazwisko" size="10" maxlenght="40" style="position: absolute; background-color:#99CCFF; font-style: italic; color: gray" required></p>
+<p><input type="reset" value="Reset">
+<input type="submit" value="Wyślij"></p>
+</center
 </div>
-<div id="prawy">
-<table>
-<tr>
-<td colspan="2"><img src="jeden.jpg"></td>
-<td colspan="2"><img src="drugi.jpg"></td>
-<td colspan="2"><img src="trzeci.jpg"></td>
-</tr>
-<tr>
-<td colspan="2"><img src="czwarty.jpg"></td>
-<td colspan="2"><img src="piaty.jpg"></td>
-<td colspan="2"><img src="szosty.jpg"></td>
-</tr>
-<tr>
-<td colspan="2"><img src="siodmy.jpg"></td>
-<td colspan="2"><img src="osmy.jpg"></td>
-<td colspan="2"><img src="dziewiaty.jpg"></td>
-</tr>
-</table>
-</div>
-</div>
+</form>
 </body>
 </html>
