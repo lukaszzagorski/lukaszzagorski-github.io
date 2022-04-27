@@ -1,52 +1,37 @@
-<html>
+<html lang="pl">
 <head>
-<style>
-body {background-color: #6699CC;}
-h1 {
-color:#0066CC;
-border-style: 2px 2px #0066CC;
-text-align: center;
-}
-#glowny { background-color: #abdbe3;
-width: 400px;
-height:290px; 
-font-size:20px;}
-
-}
-input[type=submit], input[type=reset] {
-background-color: #6699FF;
-border: 4px solid #ccc;
-color: white;
-padding: 16px 32px;
-margin: 4px 2px;
-cursor: pointer;
-border-radius: 8px;
-}
-</style>
+<meta charset="utf-8"/>
+<title>Rada klasowa klasy 2TA</title>
+<link rel="stylesheet" type="text/css" href="rada_klasowa.css">
 </head>
 <body>
-<center>
-<h1>Ankieta dotycząca oceny danego filmu</h1>
-<form action="mailto:wsip@wsip.pl?subject=Temat ankiety" method="post">
-<div id="glowny">
-<p><strong>Imię</strong>: <input type="text" name="Imie" size="10" maxlenght="40" style="position: absolute; background-color:#99CCFF; font-style: italic; color: gray" required></p>
-<p><strong>Nazwisko</strong>: <input type="text" name="Nazwisko" size="10" maxlenght="40" style="position: absolute; background-color:#99CCFF; font-style: italic; color: gray" required></p>
-<p><strong>Wybierz film</strong>: <select style="position: absolute; background-color:#99CCFF; font-style: italic; color: gray">
-<option value ="a">Harry Potter</option>
-<option value ="b">Piraci z Karaibów</option>
-<option value ="c">Kraina Lodu</option>
-<option value ="d">Cruella</option>
-<option value ="e">Enola Holms</option>
-</select></p>
-<p><strong>Ocena słowna</strong>: <input type="text" name="Nazwisko" size="10" maxlenght="40" style="position: absolute; background-color:#99CCFF; font-style: italic; color: gray" required></p>
-<p><strong>Ocena liczbowa</strong>: <style=" background-color:#99CCFF; font-style: italic; color: gray">
-<input type="checkbox" name="vehicle" value="ocena">1-5<br>
-<input type="checkbox" name="vehicle" value="ocena1">6-10<br>
-  </style></p>
-<p><input type="reset" value="Reset">
-<input type="submit" value="Wyślij"></p>
-</center
+<div id="lewy"><h1>Aktualności</h1>
+<h3>Co robimy?</h3>
+<ol>
+<li> Pomagamy w nauce</li>
+<li>Informuje o prawach ucznia</li>
+<li>Prowadzimy finanse klasowe</li>
+</ol>
+<h3>Skład Rady:</h3>
+<table callspacing="0">
+<tr>
+<td rowspan="4">Jan Abacki <br>Przewodniczący</tr>
+<td>Anna Rabacka</td>
+</tr>
+<tr>
+<td>Anna Cabacka</td>
+<tr>
+</tr>
+<tr>
+<td>Krzysztof Nowak</td>
+</tr>
+</table>
 </div>
-</form>
+<div id="prawy"><h1>Nasza Klasa</h1>
+<p><img src="klasa.jpg"</p>
+</div>
+<div id="stopka">
+<p>Autor strony: Jan Abackki</p>
+</div>
 </body>
 </html>
